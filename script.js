@@ -22,6 +22,7 @@ function perro() {
                 alert('La raza de perro está repetida')
                 totalRazas.push(raza)
             }
+            console.log("hola")
             console.log(totalRazas);
         })
 }
