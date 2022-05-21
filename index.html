@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Perros</title>
+    <title id="titulo">Perros</title>
+  
 </head>
+<body>  
+    <div id="fotoBoton">
 
-<body>
+        <img id="random">
+        <button class="boton" onclick="perro()">¡Guau!</button>
+        <p id="showBreed"></p>
+    </div>
     
-    <script src="script.js"></script>
-    <img id="random">
-    <button id="boton" onclick="perro()">Perro random</button>
     <div id="mov">
         <div class="contenedor">
             <img id='c1'></img>
@@ -39,6 +42,11 @@
 
         </div>
     </div>
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
