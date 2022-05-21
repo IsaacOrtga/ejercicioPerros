@@ -1,6 +1,8 @@
 let cont = 1;
 let totalRazas = [];
 function perro() {
+
+    
     fetch('https://dog.ceo/api/breeds/image/random')
         .then(res => res.json())
         .then(json => json)
@@ -70,4 +72,8 @@ function perro() {
             config
         );
     }
+
+    
 }
+
+
