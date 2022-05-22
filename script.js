@@ -30,7 +30,7 @@ function perro() {
                     document.getElementById('showBreed').innerText = `¡Has encontrado un ${raza}!`
                     cont++
                 } else {
-                    alert('La raza de perro está repetida')
+                    alert(`La raza de perro ${raza} está repetida`)
                 }
             } else {               
                 fetch('https://api.thecatapi.com/v1/images/search')

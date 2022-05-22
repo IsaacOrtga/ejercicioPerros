@@ -31,6 +31,49 @@ img {
     align-content: space-between;
 
 }
+
+
+/* BOTÓN */
+
+
+
+.boton {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    margin-left: 3.5%;
+    background-clip: text;
+    animation: color 3s linear infinite;
+    background-size: 500%;
+    
+    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+
+}
+
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+.boton:hover {
+    color: black
+}
+
+.boton:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    
+}
+
+
 /* GRÁFICA */
 #myChart {
     padding-right: 80px;
@@ -151,45 +194,6 @@ img {
 
 #c20 {
     background-color: rgb(122, 122, 182);
-}
-
-
-
-.boton {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    background-color: goldenrod;
-    color: transparent;
-    border-radius: 15px;
-    cursor: pointer;
-    width: 100px;
-    height: 50px;
-    margin-left: 3.5%;
-    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
-    background-clip: text;
-    animation: color 3s linear infinite;
-    background-size: 500%;
-
-
-}
-
-@keyframes color {
-    from {
-        background-position: 0% 50%;
-    }
-
-    to {
-        background-position: 100% 50%;
-    }
-}
-
-.boton:hover {
-    color: black
-}
-
-.boton:active {
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-    
 }
 
 
