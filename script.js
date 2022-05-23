@@ -1,18 +1,3 @@
-
-                
-            
-
-
-
-
-
-
-
-
-
-
-
-
 let cont = 1;
 // let contX=0;
 let totalRazas = [];
