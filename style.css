@@ -47,8 +47,7 @@ img {
     margin-left: 3.5%;
     background-clip: text;
     animation: color 3s linear infinite;
-    background-size: 500%;
-    
+    background-size: 500%;   
     background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
 
 }
@@ -78,6 +77,7 @@ img {
 #myChart {
     padding-right: 80px;
     padding-top: 100px;
+    padding-left: 60px;
 }
 
 /* CAJA GRANDE PARA CARGAR IMÁGENES */
@@ -194,5 +194,3 @@ img {
 #c20 {
     background-color: rgb(122, 122, 182);
 }
-
-
