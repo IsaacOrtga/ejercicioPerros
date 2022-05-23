@@ -1,3 +1,18 @@
+
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
 let cont = 1;
 // let contX=0;
 let totalRazas = [];
@@ -20,7 +35,8 @@ function perro() {
                 if (!condicion) {
                     labelsX.push(raza)
                     frecuencias[cont-1]=1
-                    // contX++
+                    // contX++    
+                    
                 } else {
                     let pos=labelsX.indexOf(raza)
                     console.log(pos)
@@ -51,6 +67,8 @@ function perro() {
                     frecuencias[pos]++
                     
                 }
+                localStorage.setItem("razas", raza);
+                razas=localStorage.getItem("arrayRazas"); //RAZAS GUARDADAS EN EL STORAGE Y PINTADAS EN CONSOLE.LOG
             } else {
                 fetch('https://api.thecatapi.com/v1/images/search')
                     .then(res => res.json())
@@ -73,6 +91,8 @@ function perro() {
             // console.log(contX)
             console.log(frecuencias)
             
+objeto = JSON.stringify(razas);
+console.log(objeto);
         })
         .then(()=> {
             if (labelsX.length == 20) {
