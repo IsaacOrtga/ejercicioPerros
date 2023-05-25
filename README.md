@@ -12,12 +12,7 @@
 - Javascript
 - Chart.js
 
-
-<figure class="video_container">
- <video controls="true" allowfullscreen="true">
- <source src="./assets/presentation.mp4" type="video/mp4">
- </video>
-</figure>
+![shoot_1](./img/shoot_2.png)
 
 ### Cómo funciona:
 
@@ -46,6 +41,7 @@
         }
       }
 ```
+![shoot_1](./img/shoot_1.png)
 
 
 - Si aparece la imagen de un gato, señalamos con el mensaje !Ups, se ha colado un gato!
@@ -73,3 +69,6 @@
         };
 ```
 - El array con todas las razas cargadas se muestra en consola.
+
+![shoot_1](./img/shoot_3.png)
+
